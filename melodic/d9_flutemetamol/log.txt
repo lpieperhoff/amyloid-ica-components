@@ -1,0 +1,195 @@
+
+Melodic Version 3.15
+
+/opt/aumc-apps/fsl/fsl-6.0.7.6/bin/melodic -i fmmdata/flutemetamol.nii.gz -o /scratch/radv/awink/flutemetamolKsubtypes9 -m /opt/aumc-apps/fsl/fsl-6.0.7.6/data/standard/MNI152_T1_2mm_brain_mask -d 9 --report --nobet --Oall --seed=42 
+---------------------------------------------
+
+Melodic results will be in /scratch/radv/awink/flutemetamolKsubtypes9
+
+Mask provided : /opt/aumc-apps/fsl/fsl-6.0.7.6/data/standard/MNI152_T1_2mm_brain_mask
+
+Reading data file fmmdata/flutemetamol  ...  done
+  Estimating data smoothness ...  done 
+  Removing mean image ... done
+  Normalising by voxel-wise variance ... done
+Excluding voxels with constant value ... done
+
+  Data size : 771 x 228483
+
+Starting PCA  ... done
+Start whitening using  9 dimensions ... 
+  retaining 32.2798 percent of the variability 
+ ... done
+
+Starting ICA estimation using symm
+
+  Step no. 1 change : 0.855722
+  Step no. 2 change : 0.060227
+  Step no. 3 change : 0.0274128
+  Step no. 4 change : 0.0200137
+  Step no. 5 change : 0.0245887
+  Step no. 6 change : 0.0133268
+  Step no. 7 change : 0.00390254
+  Step no. 8 change : 0.00166925
+  Step no. 9 change : 0.00158713
+  Step no. 10 change : 0.0013934
+  Step no. 11 change : 0.00114264
+  Step no. 12 change : 0.000890024
+  Step no. 13 change : 0.000730029
+  Step no. 14 change : 0.000612161
+  Step no. 15 change : 0.000518249
+  Step no. 16 change : 0.000450527
+  Step no. 17 change : 0.000405931
+  Step no. 18 change : 0.000379268
+  Step no. 19 change : 0.000365212
+  Step no. 20 change : 0.000359142
+  Step no. 21 change : 0.000357331
+  Step no. 22 change : 0.000356864
+  Step no. 23 change : 0.000355512
+  Step no. 24 change : 0.000351652
+  Step no. 25 change : 0.000344218
+  Step no. 26 change : 0.000332677
+  Step no. 27 change : 0.000316995
+  Step no. 28 change : 0.000297571
+  Step no. 29 change : 0.000275136
+  Step no. 30 change : 0.000250628
+  Step no. 31 change : 0.000225058
+  Step no. 32 change : 0.000199395
+  Step no. 33 change : 0.000174475
+  Step no. 34 change : 0.000150951
+  Step no. 35 change : 0.000129278
+  Step no. 36 change : 0.000109721
+  Step no. 37 change : 9.23838e-05
+  Step no. 38 change : 7.72466e-05
+  Step no. 39 change : 6.41993e-05
+  Step no. 40 change : 5.30761e-05
+  Step no. 41 change : 4.36809e-05
+  Convergence after 41 steps 
+
+Sorting IC maps
+
+Writing results to : 
+  /scratch/radv/awink/flutemetamolKsubtypes9/melodic_oIC
+  /scratch/radv/awink/flutemetamolKsubtypes9/melodic_IC
+  /scratch/radv/awink/flutemetamolKsubtypes9/Noise__inv
+  /scratch/radv/awink/flutemetamolKsubtypes9/melodic_Tmodes
+  /scratch/radv/awink/flutemetamolKsubtypes9/melodic_mix
+  /scratch/radv/awink/flutemetamolKsubtypes9/melodic_FTmix
+  /scratch/radv/awink/flutemetamolKsubtypes9/melodic_ICstats
+  /scratch/radv/awink/flutemetamolKsubtypes9/melodic_unmix
+  /scratch/radv/awink/flutemetamolKsubtypes9/mask
+  /scratch/radv/awink/flutemetamolKsubtypes9/melodic_white
+  /scratch/radv/awink/flutemetamolKsubtypes9/melodic_dewhite
+  /scratch/radv/awink/flutemetamolKsubtypes9/melodic_FTdewhite
+  /scratch/radv/awink/flutemetamolKsubtypes9/melodic_pcaE
+  /scratch/radv/awink/flutemetamolKsubtypes9/melodic_pcaD
+  /scratch/radv/awink/flutemetamolKsubtypes9/melodic_pca
+...done
+Creating report index page ...done
+
+
+Running Mixture Modelling on Z-transformed IC maps ...
+  IC map 1 ... 
+   calculating mixture-model fit 
+   saving probability map:    /scratch/radv/awink/flutemetamolKsubtypes9/stats/probmap_1
+   saving mixture model fit:  /scratch/radv/awink/flutemetamolKsubtypes9/stats/MMstats_1
+   re-scaling spatial maps ... 
+   thresholding ... 
+   alternative hypothesis test at p > 0.5
+   saving thresholded Z-stats image:  /scratch/radv/awink/flutemetamolKsubtypes9/stats/thresh_zstat1
+   creating report page ...    done
+  IC map 2 ... 
+   calculating mixture-model fit 
+   saving probability map:    /scratch/radv/awink/flutemetamolKsubtypes9/stats/probmap_2
+   saving mixture model fit:  /scratch/radv/awink/flutemetamolKsubtypes9/stats/MMstats_2
+   re-scaling spatial maps ... 
+   thresholding ... 
+   alternative hypothesis test at p > 0.5
+   saving thresholded Z-stats image:  /scratch/radv/awink/flutemetamolKsubtypes9/stats/thresh_zstat2
+   creating report page ...    done
+  IC map 3 ... 
+   calculating mixture-model fit 
+   saving probability map:    /scratch/radv/awink/flutemetamolKsubtypes9/stats/probmap_3
+   saving mixture model fit:  /scratch/radv/awink/flutemetamolKsubtypes9/stats/MMstats_3
+   re-scaling spatial maps ... 
+   thresholding ... 
+   alternative hypothesis test at p > 0.5
+   saving thresholded Z-stats image:  /scratch/radv/awink/flutemetamolKsubtypes9/stats/thresh_zstat3
+   creating report page ...    done
+  IC map 4 ... 
+   calculating mixture-model fit 
+   saving probability map:    /scratch/radv/awink/flutemetamolKsubtypes9/stats/probmap_4
+   saving mixture model fit:  /scratch/radv/awink/flutemetamolKsubtypes9/stats/MMstats_4
+   re-scaling spatial maps ... 
+   thresholding ... 
+   alternative hypothesis test at p > 0.5
+   saving thresholded Z-stats image:  /scratch/radv/awink/flutemetamolKsubtypes9/stats/thresh_zstat4
+   creating report page ...    done
+  IC map 5 ... 
+   calculating mixture-model fit 
+   saving probability map:    /scratch/radv/awink/flutemetamolKsubtypes9/stats/probmap_5
+   saving mixture model fit:  /scratch/radv/awink/flutemetamolKsubtypes9/stats/MMstats_5
+   re-scaling spatial maps ... 
+   thresholding ... 
+   alternative hypothesis test at p > 0.5
+   saving thresholded Z-stats image:  /scratch/radv/awink/flutemetamolKsubtypes9/stats/thresh_zstat5
+   creating report page ...    done
+  IC map 6 ... 
+   calculating mixture-model fit 
+   saving probability map:    /scratch/radv/awink/flutemetamolKsubtypes9/stats/probmap_6
+   saving mixture model fit:  /scratch/radv/awink/flutemetamolKsubtypes9/stats/MMstats_6
+   re-scaling spatial maps ... 
+   thresholding ... 
+   alternative hypothesis test at p > 0.5
+   saving thresholded Z-stats image:  /scratch/radv/awink/flutemetamolKsubtypes9/stats/thresh_zstat6
+   creating report page ...    done
+  IC map 7 ... 
+   calculating mixture-model fit 
+   saving probability map:    /scratch/radv/awink/flutemetamolKsubtypes9/stats/probmap_7
+   saving mixture model fit:  /scratch/radv/awink/flutemetamolKsubtypes9/stats/MMstats_7
+   re-scaling spatial maps ... 
+   thresholding ... 
+   alternative hypothesis test at p > 0.5
+   saving thresholded Z-stats image:  /scratch/radv/awink/flutemetamolKsubtypes9/stats/thresh_zstat7
+   creating report page ...    done
+  IC map 8 ... 
+   calculating mixture-model fit 
+   saving probability map:    /scratch/radv/awink/flutemetamolKsubtypes9/stats/probmap_8
+   saving mixture model fit:  /scratch/radv/awink/flutemetamolKsubtypes9/stats/MMstats_8
+   re-scaling spatial maps ... 
+   thresholding ... 
+   alternative hypothesis test at p > 0.5
+   saving thresholded Z-stats image:  /scratch/radv/awink/flutemetamolKsubtypes9/stats/thresh_zstat8
+   creating report page ...    done
+  IC map 9 ... 
+   calculating mixture-model fit 
+   saving probability map:    /scratch/radv/awink/flutemetamolKsubtypes9/stats/probmap_9
+   saving mixture model fit:  /scratch/radv/awink/flutemetamolKsubtypes9/stats/MMstats_9
+   re-scaling spatial maps ... 
+   thresholding ... 
+   alternative hypothesis test at p > 0.5
+   saving thresholded Z-stats image:  /scratch/radv/awink/flutemetamolKsubtypes9/stats/thresh_zstat9
+   creating report page ...    done
+
+Writing results to : 
+  /scratch/radv/awink/flutemetamolKsubtypes9/melodic_IC
+  /scratch/radv/awink/flutemetamolKsubtypes9/Noise__inv
+  /scratch/radv/awink/flutemetamolKsubtypes9/melodic_Tmodes
+  /scratch/radv/awink/flutemetamolKsubtypes9/melodic_mix
+  /scratch/radv/awink/flutemetamolKsubtypes9/melodic_FTmix
+  /scratch/radv/awink/flutemetamolKsubtypes9/melodic_ICstats
+  /scratch/radv/awink/flutemetamolKsubtypes9/melodic_unmix
+  /scratch/radv/awink/flutemetamolKsubtypes9/mask
+  /scratch/radv/awink/flutemetamolKsubtypes9/melodic_white
+  /scratch/radv/awink/flutemetamolKsubtypes9/melodic_dewhite
+  /scratch/radv/awink/flutemetamolKsubtypes9/melodic_FTdewhite
+  /scratch/radv/awink/flutemetamolKsubtypes9/melodic_pcaE
+  /scratch/radv/awink/flutemetamolKsubtypes9/melodic_pcaD
+  /scratch/radv/awink/flutemetamolKsubtypes9/melodic_pca
+...done
+
+
+ To view the output report point your web browser at /scratch/radv/awink/flutemetamolKsubtypes9/report/00index.html
+
+finished!
+
