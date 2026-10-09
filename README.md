@@ -6,7 +6,7 @@
 
 Cortical amyloid-β PET components (frontal, parietal, occipital) derived by probabilistic independent component analysis (ICA) in the AMYPAD Prognostic & Natural History Study, provided in MNI152NLin6Asym 2mm space, together with a Python tool to register a subject's PET and T1 to MNI space and quantify component loadings by spatial regression.
 
-If you use these components or this code, please cite: __TO BE UPDATED__.
+If you use these components or this code, please cite: _TO BE UPDATED_.
 
 ## Contents
 
@@ -16,8 +16,6 @@ If you use these components or this code, please cite: __TO BE UPDATED__.
   - `desc-zstatmasked`: Z-statistic map, thresholded by 80% component probability. These are the maps used by `apply_components.py`.
 - `apply_components.py`: registers a subject's T1 and PET to MNI space and regresses the masked z-statistic maps onto the PET image.
 - `requirements.txt`: Python dependencies.
-
-## Installation
 
 ## Installation
 
@@ -101,7 +99,7 @@ where `label` is the component (frontal, occipital, parietal) and `desc` the map
 
 ## License
 
-__TO BE UPDATED__
+_TO BE UPDATED_
 
 ## Contact
 
