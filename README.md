@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/logo.png" alt="Amyloid-β ICA components logo" width="300">
+  <img src="assets/banner.png" alt="Amyloid-β ICA components" width="2564">
 </p>
 
 # Amyloid-β ICA components
