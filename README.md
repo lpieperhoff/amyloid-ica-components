@@ -6,20 +6,27 @@
 
 Cortical amyloid-β PET components (frontal, parietal, occipital) derived by probabilistic independent component analysis (ICA) in the AMYPAD Prognostic & Natural History Study, provided in MNI152NLin6Asym 2mm space, together with a Python tool to register a subject's PET and T1 to MNI space and quantify component loadings by spatial regression.
 
-If you use these components or this code, please cite: <TO BE UPDATED>.
+If you use these components or this code, please cite: __TO BE UPDATED__.
 
 ## Contents
 
 - `components/`: component maps in MNI152NLin6Asym space at 2 mm resolution. For each component:
-  - `desc-probmap`: <Probability map; probabilities are derived from Mixture Modeling implemented in FSL MELODIC v3.15 (https://doi.org/10.1109/ISBI.2004.1398832)>
-  - `desc-zstat`: <Z-statistic map>
-  - `desc-zstatmasked`: <Z-statistic map, thresholded by 80% component probability>. These are the maps used by `apply_components.py`.
+  - `desc-probmap`: Probability map; probabilities are derived from Mixture Modeling implemented in FSL MELODIC v3.15 (https://doi.org/10.1109/ISBI.2004.1398832)
+  - `desc-zstat`: Z-statistic map
+  - `desc-zstatmasked`: Z-statistic map, thresholded by 80% component probability. These are the maps used by `apply_components.py`.
 - `apply_components.py`: registers a subject's T1 and PET to MNI space and regresses the masked z-statistic maps onto the PET image.
 - `requirements.txt`: Python dependencies.
 
 ## Installation
 
-Python 3 is required.
+## Installation
+
+Developed and tested with Python 3.11.17. Other Python 3 versions may work, provided a compatible antspyx release is available.
+
+Optional: create a clean environment first.
+
+    python -m venv .venv
+    source .venv/bin/activate        # Windows (PowerShell): .venv\Scripts\Activate.ps1
 
     pip install -r requirements.txt
 
@@ -94,7 +101,7 @@ where `label` is the component (frontal, occipital, parietal) and `desc` the map
 
 ## License
 
-<TO BE UPDATED>
+__TO BE UPDATED__
 
 ## Contact
 
