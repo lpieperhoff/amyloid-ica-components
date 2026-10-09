@@ -98,6 +98,6 @@ where `label` is the component (frontal, occipital, parietal) and `desc` the map
 
 ## Contact
 
-Leo Pieperhoff
-l.pieperhoff@amsterdamumc.nl
+Leo Pieperhoff: l.pieperhoff@amsterdamumc.nl
+
 https://github.com/lpieperhoff
