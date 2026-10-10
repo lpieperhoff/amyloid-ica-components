@@ -1,12 +1,17 @@
-<p align="center">
-  <img src="assets/banner.png" alt="Amyloid-β ICA components" width="2564">
-</p>
 
 # Amyloid-β ICA components
 
 Cortical amyloid-β PET components (frontal, parietal, occipital) derived by probabilistic independent component analysis (ICA) in the AMYPAD Prognostic & Natural History Study, provided in MNI152NLin6Asym 2mm space, together with a Python tool to register a subject's PET and T1 to MNI space and quantify component loadings by spatial regression.
 
-If you use these components or this code, please cite: _TO BE UPDATED_.
+[![License: CC0 1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](LICENSE)
+[![Python 3.11](https://img.shields.io/badge/Python-3.11-blue?logo=python&logoColor=white)](https://www.python.org/downloads/)
+[![Last commit](https://img.shields.io/github/last-commit/lpieperhoff/amyloid-ica-components)](https://github.com/lpieperhoff/amyloid-ica-components/commits/main)
+
+## About
+
+<p align="center">
+  <img src="assets/banner.png" alt="Amyloid-β ICA components" width="2564">
+</p>
 
 ## Contents
 
@@ -99,10 +104,16 @@ where `label` is the component (frontal, occipital, parietal) and `desc` the map
 
 ## License
 
-_TO BE UPDATED_
+The component maps, code and documentation in this repository are released under the Creative Commons CC0 1.0 Universal Public Domain Dedication (see [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/)). To the extent possible under law, the authors have waived all copyright and related rights, so the work may be copied, modified, distributed and used, including for commercial purposes, without asking permission. Citation is not a legal requirement under CC0 but is requested as good scholarly practice (see Citation below).
+
+## Citation
+
+If you use these components or this code, please cite: _TO BE UPDATED_.
 
 ## Contact
 
-Leo Pieperhoff: l.pieperhoff@amsterdamumc.nl
+Leo Pieperhoff
+
+l.pieperhoff@amsterdamumc.nl
 
 https://github.com/lpieperhoff

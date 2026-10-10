@@ -3,3 +3,5 @@ __pycache__/
 results/
 transforms/
 *_orientation_backup/
+desktop.ini
+*/desktop.ini
