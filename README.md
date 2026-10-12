@@ -13,6 +13,8 @@ Cortical amyloid-β PET components (frontal, parietal, occipital) derived by pro
   <img src="assets/banner.png" alt="Amyloid-β ICA components" width="2564">
 </p>
 
+Components were estimated with probabilistic independent component analysis (FSL MELODIC v3.15) on Aβ-PET SUVR maps in MNI152NLin6Asym space, run separately for [18F]Flutemetamol and [18F]Florbetaben scans. The number of dimensions was chosen as the one yielding the most spatially overlapping components (R>0.8) across the two tracers, and component maps were thresholded at 80% component probability from mixture modeling. Subject-level component loadings are obtained by spatially regressing these components onto individual SUVR maps.
+
 ## Contents
 
 - `components/`: component maps in MNI152NLin6Asym space at 2 mm resolution. For each component:
