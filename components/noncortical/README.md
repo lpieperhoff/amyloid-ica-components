@@ -12,7 +12,7 @@ Each component is provided in three versions:
 
 ## Commissural component
 
-<img src="../assets/component-commissural.png" alt="Commissural amyloid component" width="100%">
+<img src="../../assets/component-commissural.png" alt="Commissural amyloid component" width="100%">
 
 Files:
 
@@ -22,7 +22,7 @@ Files:
 
 ## Halo component
 
-<img src="../assets/component-halo.png" alt="Halo amyloid component" width="100%">
+<img src="../../assets/component-halo.png" alt="Halo amyloid component" width="100%">
 
 Files:
 
@@ -32,7 +32,7 @@ Files:
 
 ## Left-temporal component
 
-<img src="../assets/component-lhtemporal.png" alt="Left-temporal amyloid component" width="100%">
+<img src="../../assets/component-lhtemporal.png" alt="Left-temporal amyloid component" width="100%">
 
 Files:
 
@@ -42,7 +42,7 @@ Files:
 
 ## Projection component
 
-<img src="../assets/component-projection.png" alt="Projection amyloid component" width="100%">
+<img src="../../assets/component-projection.png" alt="Projection amyloid component" width="100%">
 
 Files:
 
@@ -52,7 +52,7 @@ Files:
 
 ## Right-temporal component
 
-<img src="../assets/component-rhtemporal.png" alt="Right-temporal amyloid component" width="100%">
+<img src="../../assets/component-rhtemporal.png" alt="Right-temporal amyloid component" width="100%">
 
 Files:
 
@@ -62,7 +62,7 @@ Files:
 
 ## Ventricular component
 
-<img src="../assets/component-ventricular.png" alt="Ventricular amyloid component" width="100%">
+<img src="../../assets/component-ventricular.png" alt="Ventricular amyloid component" width="100%">
 
 Files:
 
